@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:minWidth="282dp">
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="@string/newListDialogTitle"
+              android:id="@+id/textView"
+              android:layout_gravity="center_horizontal"
+            />
+
+    <EditText android:id="@+id/listCreationDialogNameEditText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textPersonName"
+              android:minWidth="250dp"
+              android:focusableInTouchMode="true"
+              android:lines="1"
+              android:maxLines="1"/>
+
+    <TableRow android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+        <Button android:id="@+id/listCreationDialogCancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="125dp"
+                android:text="@string/newListDialogCancelButton"/>
+
+        <Button android:id="@+id/listCreationDialogSaveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="125dp"
+                android:text="@string/newListDialogSaveButton"/>
+    </TableRow>
+</LinearLayout>

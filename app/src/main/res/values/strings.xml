@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="toolbarDeleteTitle">Удаление</string>
+    <string name="clear_title">очистить</string>
+    <string name="toolbarTitle">ShoppingList</string>
+    <string name="newListDialogEditTextHint">введите название списка</string>
+    <string name="newListDialogSaveButton">создать</string>
+    <string name="newListDialogCancelButton">отмена</string>
+    <string name="newListDialogTitle">Название для списка:</string>
+</resources>

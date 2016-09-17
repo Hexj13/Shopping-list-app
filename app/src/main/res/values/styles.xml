@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ShoppingListTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:actionMenuTextColor">@color/toolbarTextColor</item>
+        <item name="actionMenuTextColor">@color/toolbarTextColor</item>
+    </style>
+
+    <style name="ShoppingListTheme.Dialog" parent="@style/ShoppingListTheme">
+        <item name="android:windowTitleStyle">@style/Base.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowBackground">@drawable/list_creation_dialog_background</item>
+        <item name="android:windowSoftInputMode">stateVisible</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">0dp</item>
+        <item name="windowMinWidthMinor">0dp</item>
+    </style>
+
+</resources>

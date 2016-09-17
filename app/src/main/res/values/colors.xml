@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff669900</color>
+    <color name="colorPrimaryDark">#ff99cc00</color>
+    <color name="colorAccent">#ff99cc00</color>
+    <color name="toolbarTextColor">#ffffff</color>
+    <color name="newListDialogBackgroundColor">#eeeeee</color>
+    <color name="mainListItemBackgroundColor">#eeeeee</color>
+    <color name="mainListItemShadowColor">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FF4444</color>
+    <color name="transparentRed">#88FF4444</color>
+</resources>
